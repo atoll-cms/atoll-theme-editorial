@@ -12,4 +12,5 @@ php bin/atoll theme:activate editorial
 ## Scope
 
 - `assets/main.css` contains the visual style.
-- `templates/` is intentionally minimal; core templates remain fallback.
+- `templates/layouts/base.twig` and `templates/components/*` override the shared base layout structure.
+- Page templates can remain minimal and still use core fallbacks where appropriate.
